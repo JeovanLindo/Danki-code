@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+/* section 1 */
+
+#sec1 {
+    width: 60%;
+}
+
+#bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(imagens/lohp_1302x955.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+#logo {
+    background-image: url(imagens/Twitter_logo_2012.svg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 35%;
+}
+
+/* section 1 */
+
+
+/* section 2 */
+
+#sec2 {
+    height: 100%;
+    width: 40%;
+    background-color: black;
+    color: white;
+}
+
+#login {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#título {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+#título > img {
+    height: 40px;
+    margin-bottom: 60px;
+}
+
+#título > h1 {
+    margin-bottom: 60px;
+    font-size: 4em;
+}
+
+#título > p {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+
+#sign-in {
+    width: 36%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+}
+
+#google {
+    color: rgb(104, 104, 104);
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 50px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#google > img {
+    height: 20px;
+    margin-right: 5px;
+}
+#google:hover {
+    background-color: rgb(238, 238, 238);
+}
+
+#apple {
+    margin-bottom: 15px;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#apple > img {
+    margin-right: 5px;
+    height: 20px;
+}
+
+#apple:hover {
+    background-color: rgb(238, 238, 238);
+}
+
+#linha {
+    border: 0.5pt solid rgb(46, 46, 46);
+    height: 0px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#linha > div {
+    background-color: black;
+    padding: 4px
+}
+
+#celular {
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #169CFA;
+    padding: 10px 10px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#celular:hover {
+    background-color: #1171b6;
+}
+
+#termos {
+    font-size: 9.4px;    
+    color: #5e6a6e;
+    margin-bottom: 100px;
+}
+
+#termos a {
+    text-decoration: none;
+    color: #169CFA;
+}
+
+#termos a:hover {
+    color: #1171b6;
+}
+
+#entrar > p {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#entrar > input {
+    width: 100%;
+    background-color: black;
+    color: #169CFA;
+    border: 1px solid #5e6a6e;
+    padding: 10px 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#entrar > input:hover {
+    background-color: #25698813;
+}
+
+/* section 2 */

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculador dinamica</title>
+</head>
+<body>
+    <script>
+        //variaveis
+        var n1 = prompt("Digite o primeiro número : ")
+        var sin = prompt("Digite qual o tipo de cálculo você deseja, sendo * = multiplicação, / = divisão, + = soma e - = subtração")
+        var n2 = prompt("Digite o segundo número : ")
+        var res = 0
+
+        n1 = parseFloat(n1)
+        n2 = parseFloat(n2)
+
+
+        //código
+        
+
+        while (sin != '-' && sin != '+' && sin != '*' && sin != '/'){
+            window.alert ('[ERROR 2002220x] Repita, valor inválido')
+            sin = prompt("Digite qual o tipo de cálculo você deseja, sendo * = multiplicação, / = divisão, + = soma e - = subtração")
+        }
+          
+        if(sin == '-'){
+            res = n1 - n2
+            
+        }else if(sin == '+'){
+            res = n1 + n2
+            
+        }else if(sin == '/'){
+            res = n1 / n2 
+            
+        }else if (sin == '*'){
+            res = n1 * n2
+           
+        }
+
+        window.alert (res)
+        
+        
+
+    </script>
+</body>
+</html>

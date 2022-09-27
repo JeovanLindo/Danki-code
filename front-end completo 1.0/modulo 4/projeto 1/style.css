@@ -1,0 +1,161 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 200vh;
+    width: 100%;
+}
+
+header {
+    height: 5%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #212343;
+}
+
+#logo {
+    margin: 30px;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+#princ {
+    background-color: #251536;
+    height: 30%;
+    background-image: url(imagens/header_bg.png);
+    background-position: left;
+    background-size: counter;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15pt;
+}
+
+#lista {
+    background-color: #212343af;
+    margin-left: 130px;
+    color: white;
+    padding: 50px 50px 0px 50px;
+}
+
+#lista li {
+    margin-bottom: 50px;
+}
+
+#formulario {
+    background-color: #ffffff;
+    height: 700px;
+    width: 400px;
+    margin-right: 60px;
+    margin-top: 30px;
+    color: #b3b3b3;
+    padding: 20px;
+    border: 10px solid #b3b3b3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form {
+    margin: 30px;
+    width: 100%;
+}
+
+.form  input {
+    font-size: 1em;
+    padding: 20px;
+    outline: none;
+    width: 340px;
+}
+
+#buton {
+    background-color: #212343;
+    color: white;
+    /* border: 0; */
+    cursor: pointer;
+    padding: 10px 120px;
+    text-align: center;
+    font-size: 1em;
+}
+
+#desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+    height: 15%;
+}
+
+#desc h1 {
+    color: rgb(36, 36, 36);
+    font-weight: lighter;
+    font-size: 2em;
+    margin-top: -20px;
+}
+
+#desc2 {
+    width: 35%;
+    margin-top: 20px;
+    color: rgb(104, 104, 104);
+    font-size: 14pt;
+}
+
+#arrow {
+    margin-top: 30px;
+    margin-bottom: -100px;
+}
+
+#bg {
+ background-color: white;
+ text-align: center;
+}
+
+#bg h2 {
+    font-weight: lighter;
+    color: #3c205a;
+    margin-top: 150px;
+}
+
+.imagens {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+} 
+
+.cdimg {
+    width: 24%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.068);
+}
+
+.cdimg h4 {
+    margin: 20px 0px;
+}
+
+footer {
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid gray;
+}
+
+footer > p {
+    font-size: 15pt;
+    color: rgb(172, 172, 172);
+    margin-top: 30px;
+}
